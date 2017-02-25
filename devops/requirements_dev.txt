@@ -1,0 +1,2 @@
+ipython==5.1.0
+peewee-db-evolve==0.5.2

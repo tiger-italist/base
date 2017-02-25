@@ -1,0 +1,1 @@
+uwsgi --gevent 100 --socket 127.0.0.1:3031 --wsgi-file italist_api.py --callable app --processes 4 --threads 2 --stats 127.0.0.1:9191 -H /Users/tigerwu/.virtualenvs/
